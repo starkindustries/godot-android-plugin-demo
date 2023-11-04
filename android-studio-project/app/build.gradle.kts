@@ -28,6 +28,7 @@ android {
 }
 
 dependencies {
+    implementation("com.google.android.gms:play-services-ads-lite:22.5.0")
     compileOnly(fileTree(mapOf("dir" to "libs", "include" to listOf("godot-lib.4.1.2.stable.template_release.aar"))))
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

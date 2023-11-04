@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.s6industries.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application>
         <meta-data
             android:name="org.godotengine.plugin.v1.HelloWorld"
